@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import axios from "axios";
-import ScotchInfoBar from "./ScotchInfoBar";
 import "./styles.css";
 
 function App() {
@@ -40,16 +39,16 @@ function App() {
                 <h2>{contact.teamName}</h2>
 
                 <div className="details">
-                  <p>🆘: {contact.helpDescription}</p>
-                  <p>📞: {contact.phone}</p>
-                  <p>📧: {contact.email}</p>
+                  <p><span role="img" aria-label="Help">🆘</span>: {contact.helpDescription}</p>
+                  <p><span role="img" aria-label="Phone">📞</span>: {contact.phone}</p>
+                  <p><span role="img" aria-label="email">📧</span>: {contact.email}</p>
                 </div>
               </div>
             );
           })}
       </div>
 
-      <ScotchInfoBar seriesNumber="7" />
+      
     </div>
   );
 }
