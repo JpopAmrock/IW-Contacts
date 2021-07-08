@@ -31,8 +31,7 @@ function App() {
       <div className="contacts">
         {contacts &&
           contacts.map((contact, index) => {
-            // const authors = book.authors.join(', ');
-
+            
             return (
               <div className="contact" key={index}>
                 <h3>Team {index + 1}</h3>
@@ -41,7 +40,7 @@ function App() {
                 <div className="details">
                   <p><span role="img" aria-label="Help">🆘</span>: {contact.helpDescription}</p>
                   <p><span role="img" aria-label="Phone">📞</span>: {contact.phone}</p>
-                  <p><span role="img" aria-label="email">📧</span>: {contact.email}</p>
+                  {/*<p><span role="img" aria-label="email">📧</span>: {contact.email}</p> */}
                 </div>
               </div>
             );
