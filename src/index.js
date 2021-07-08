@@ -48,7 +48,7 @@ function App() {
           })}
       </div>
 
-      <ScotchInfoBar seriesNumber="7" />
+      
     </div>
   );
 }
