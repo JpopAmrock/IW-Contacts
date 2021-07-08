@@ -39,9 +39,9 @@ function App() {
                 <h2>{contact.teamName}</h2>
 
                 <div className="details">
-                  <p><span>🆘</span>: {contact.helpDescription}</p>
-                  <p><span>📞</span>: {contact.phone}</p>
-                  <p><span>📧</span>: {contact.email}</p>
+                  <p><span role="img" aria-label="Help">🆘</span>: {contact.helpDescription}</p>
+                  <p><span role="img" aria-label="Phone">📞</span>: {contact.phone}</p>
+                  <p><span role="img" aria-label="email">📧</span>: {contact.email}</p>
                 </div>
               </div>
             );
