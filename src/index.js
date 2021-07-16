@@ -40,7 +40,7 @@ function App() {
                 <div className="details">
                   <p><span role="img" aria-label="Help">🆘</span>: {contact.helpDescription}</p>
                   <p><span role="img" aria-label="Phone">📞</span>: {contact.phone}</p>
-                  <p><span role="img" aria-label="email">📧</span>: {contact.email}</p> 
+                  <p><span role="img" >📧</span>: {contact.email}</p> 
                 </div>
               </div>
             );
